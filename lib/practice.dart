@@ -1,3 +1,4 @@
+
 void main(){
 
   int num1 = 20;
@@ -13,8 +14,9 @@ void main(){
 
   String name = result2.toString();
   print(name);
-  print(result2.runtimeType);
+  print(name.runtimeType);
 
-  int myRess = result2.toInt() + 200;
+  double myResult = double.parse(name)+ 200;
+  print(myResult);
 
 }
