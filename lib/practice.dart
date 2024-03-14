@@ -1,4 +1,4 @@
-
+//Type Casting
 void main(){
 
   int num1 = 20;
@@ -18,5 +18,8 @@ void main(){
 
   double myResult = double.parse(name)+ 200;
   print(myResult);
+
+  int a = int.tryParse('123g') ?? 0 ;
+  print(a + 12);
 
 }
