@@ -27,10 +27,10 @@ void main() {
   for (var i = 0; i <= 10; i++) {
 
     if(i==0) {
-      continue;
+      continue; // continue meaning: Nicher Line R Code Exicute Korbe na
     }
     if (i>5){
-      break;
+      break; // Break meaning: Loop ses
     }
     print('$i I Love Dart');
 
