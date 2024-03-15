@@ -23,4 +23,20 @@ void main() {
     print("${oneStudent['ID']} no. student name is ${oneStudent['Name']} and her class is ${oneStudent['Class']} and age no. is ${oneStudent['Age']}");
 
   }
+
+  for (var i = 0; i <= 10; i++) {
+
+    if(i==0) {
+      continue;
+    }
+    if (i>5){
+      break;
+    }
+
+    print('$i I Love Dart');
+
+  }
+
+
+
 }
