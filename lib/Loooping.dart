@@ -19,9 +19,9 @@ void main() {
       'Class': '12',
     },
   ];
+
   for (var oneStudent in studentInfo) {
     print("${oneStudent['ID']} no. student name is ${oneStudent['Name']} and her class is ${oneStudent['Class']} and age no. is ${oneStudent['Age']}");
-
   }
 
   for (var i = 0; i <= 10; i++) {
@@ -32,11 +32,7 @@ void main() {
     if (i>5){
       break;
     }
-
     print('$i I Love Dart');
 
   }
-
-
-
 }
