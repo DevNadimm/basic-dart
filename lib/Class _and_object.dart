@@ -1,0 +1,10 @@
+class myClass{
+
+
+}
+
+void main (){
+
+
+}
+
