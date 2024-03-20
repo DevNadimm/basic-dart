@@ -1,4 +1,4 @@
-/*
+/*          //alternative
 class myClass {
   int a = 10;
   int b = 11;
