@@ -22,7 +22,7 @@ class myClass{
 
 void main (){
   var classObj = myClass();
-  int toeSum =(classObj.a+classObj.b);
-  print(toeSum);
+  int towSum =(classObj.a+classObj.b);
+  print(towSum);
 }
 
