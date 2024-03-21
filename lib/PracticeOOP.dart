@@ -39,7 +39,26 @@ class Teacher {
   String department;
 
   Teacher({required this.name, required this.age, required this.department});
-
-
-
 }
+
+
+
+// void main(){
+//   List <Teacher> teachers = [];
+//   Teacher teacher1 = Teacher(name: 'Rafat',subject: 'Flutter', department: 'CSE');
+//   Teacher teacher2 = Teacher(name: 'Rabbil', subject: 'Laravel', department: 'CSE');
+//   Teacher teacher3 = Teacher(name: 'Aunjan', subject: 'Botani', department: 'Biology');
+//   teachers.add(teacher1);
+//   teachers.add(teacher2);
+//   teachers.add(teacher3);
+//   print('${teacher1.subject} teacher name is ${teacher1.name}');
+//   print('${teacher2.subject} teacher name is ${teacher2.name}');
+//   print('${teacher3.subject} teacher name is ${teacher3.name}');
+// }
+//
+// class Teacher {
+//   String name ;
+//   String subject ;
+//   String department ;
+//   Teacher({required this.name, required this.subject, required this.department});
+// }
