@@ -29,7 +29,7 @@ class myClass{
 }
 
 void main (){
-  var classObj = myClass();  //Object Create
+  myClass classObj = myClass();  //Object Create
   int towSum =(classObj.a+classObj.b);
   print(towSum);
   print(classObj.studentName);
